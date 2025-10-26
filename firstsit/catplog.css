@@ -1,0 +1,84 @@
+body {
+  font-family:"Montserrat" , sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+background: url(images/background-pattern.jpg);
+color: #310c13;
+}
+
+main {
+ max-width: 760px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 1px #310c13;
+}
+
+header h1 {
+   color: #ff23b1;
+    color: oklch(67.06% 0.308 348.35);
+    text-align: center;
+    font-size: 96px;
+   text-shadow: 0px 0px 5px rgba(49, 12, 19, 1);
+    font-family: "Caveat Brush", cursive;
+   font-weight: 800;
+   font-style: normal;
+}
+header h1::before {
+  content: url(images/circle.png);
+  margin-right: 10px;
+}
+header h1::after {
+  content: url(images/circle.png);
+  margin-left: 10px;
+}
+
+article h2 {
+   background: rgb(49,12,19);
+    background: linear-gradient(180deg, rgba(49,12,19,1) 0%, rgba(100,6,24,1) 50%, rgba(49,12,19,1) 100%);
+    padding: 20px;
+    color: #fffce8;
+    font-size: 32px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+h1 h2 p {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  padding: 20px 0px;
+}
+
+article {
+  padding: 0 20px 1em 20px;
+margin-bottom: 120px;
+}
+.date {
+font-weight: 700;
+padding: 20px;
+font-style:initial;
+}
+
+article footer {
+  background-color: #ff23b1;
+  border-radius: 10px ;
+  min-height: 26px ;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  font-size: 24px;
+  font-style:"Montserrat" ;
+}
